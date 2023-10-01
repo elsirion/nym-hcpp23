@@ -1,0 +1,12 @@
+[package]
+name = "nym-hcpp23"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.4.3", features = [ "derive" ] }
+nym-sdk = { git = "https://github.com/nymtech/nym" }
+nym-bin-common = { git = "https://github.com/nymtech/nym" }
+tokio = { version = "1.24.1", features = [ "full" ] }
