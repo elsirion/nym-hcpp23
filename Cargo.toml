@@ -7,6 +7,6 @@ edition = "2021"
 
 [dependencies]
 clap = { version = "4.4.3", features = [ "derive" ] }
-nym-sdk = { git = "https://github.com/nymtech/nym" }
-nym-bin-common = { git = "https://github.com/nymtech/nym" }
+nym-sdk = { git = "https://github.com/nymtech/nym", rev = "85a7ec9f02ca8262d47eebb6c3b19d832341b55d" }
+nym-bin-common = { git = "https://github.com/nymtech/nym", rev = "85a7ec9f02ca8262d47eebb6c3b19d832341b55d" }
 tokio = { version = "1.24.1", features = [ "full" ] }
